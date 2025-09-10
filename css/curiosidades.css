@@ -1,0 +1,27 @@
+/*--Imports--*/
+@import url(https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Irish+Grover&display=swap);
+
+/*--Nav-Bar--*/
+header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 5vw 8vw 0 8vw;
+    align-items: center;
+    & div h1 {
+        color: #809671;
+        font-family: irish grover;
+        font-size: 30px;
+    }
+    & div ul {
+        display: flex;
+        gap: 40px;
+        & li a {
+            font-family: inter;
+            transition: text-shadow 0.1s ease;
+        }
+        & li a:hover {
+            text-shadow: 0 0 1px black;
+        }
+    }
+}
