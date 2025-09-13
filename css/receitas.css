@@ -236,3 +236,63 @@ header nav {
 .video-thumbnail a:hover img {
     transform: scale(1.03);
 }
+footer {
+    font-family: Inter;
+    background: #526645;
+    color: white;
+    padding: 5vw 20vw 5vw 10vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .redes {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+footer h4 {
+    font-size: 30px;
+    color: white;
+    font-family: Irish Grover;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+footer .redes img {
+    width: 24px;
+    height: 24px;
+}
+
+
+footer nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 100px;
+}
+footer li {
+    margin-bottom: 8px;
+}
+
+footer a {
+    color: #bbb;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: white;
+}
+
+footer .titulo-navegacao,
+footer .titulo-duvidas,
+footer .titulo-instucionais {
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    color: #fff;
+}
