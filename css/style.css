@@ -130,7 +130,7 @@ header nav {
         justify-content: center;
         flex-wrap: wrap;
         & li {
-            width: 350px;
+            width: 300px;
             & img {
                 width: 100%;
             }
