@@ -1,0 +1,157 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Irish+Grover&display=swap);
+@import url("https://fonts.googleapis.com/css2?family=Inria+Serif&display=swap");
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+
+header {
+    background: white;
+    padding: 15px 20px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar>a {
+    font-size: 22px;
+    font-weight: bold;
+    color: #809671;
+    font-family: Irish Grover;
+    text-decoration: none;
+}
+
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav-bar li {
+    gap: 20px;
+}
+
+.nav-bar ul li a {
+    color: #000000;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.nav-bar a:hover {
+    background: #f5f5f5;
+}
+
+
+main {
+    padding: 30px;
+}
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    font-family: "Inter", sans-serif;
+    color: #333;
+}
+
+main h1 {
+    font-size: 2rem;
+    color: #526645;
+    font-family: "Inria Serif", serif;
+    margin-bottom: 10px;
+    border-left: 5px solid #809671;
+    padding-left: 12px;
+}
+
+main p {
+    margin-bottom: 15px;
+    font-size: 1rem;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+main section {
+    margin-bottom: 30px;
+}
+
+main section h2 {
+    font-size: 1.4rem;
+    color: #526645;
+    font-family: "Inria Serif", serif;
+    margin-bottom: 12px;
+    border-left: 4px solid #809671;
+    padding-left: 10px;
+}
+
+main section p {
+    margin-bottom: 12px;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+
+footer {
+    font-family: Inter;
+    background: #526645;
+    color: white;
+    padding: 5vw 20vw 5vw 10vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .redes {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+footer h4 {
+    font-size: 30px;
+    color: white;
+    font-family: Irish Grover;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+footer .redes img {
+    width: 24px;
+    height: 24px;
+}
+
+
+footer nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 100px;
+}
+footer li {
+    margin-bottom: 8px;
+}
+
+footer a {
+    color: #bbb;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: white;
+}
+
+footer .titulo-navegacao,
+footer .titulo-duvidas,
+footer .titulo-instucionais {
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    color: #fff;
+}
